@@ -1,0 +1,102 @@
+{
+  "name": "7Mer-Compendium",
+  "title": "7Mer Compendium",
+  "description": "Conpendium de partage 7Mer",
+  "author": "ZUBER Lionel",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.5.0",
+  "compatibleCoreVersion": "3.2.1",
+  "packs": [
+    {
+      "name": "actors",
+      "label": "7eme Mer - Personnages",
+      "path": "packs/actors.db",
+      "module": "7Mer-Compendium",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters",
+      "label": "7emer Mer - Monstres",
+      "path": "packs/monsters.db",
+      "module": "7Mer-Compendium",
+      "entity": "Actor"
+    },
+    {
+      "name": "items",
+      "label": "7eme Mer - Objets diverses",
+      "path": "packs/items.db",
+      "module": "7Mer-Compendium",
+      "entity": "Item"
+    },
+    {
+      "name": "items-avantage",
+      "label": "7eme Mer - Avantages",
+      "path": "packs/items-7mer-avantage.db",
+      "module": "7Mer-Compendium",
+      "entity": "Item"
+    },
+    {
+      "name": "items-virtues",
+      "label": "7eme Mer - Vices et Vertues",
+      "path": "packs/items-7mer-virtues.db",
+      "module": "7Mer-Compendium",
+      "entity": "Item"
+    },
+    {
+      "name": "items-histo",
+      "label": "7eme Mer - Historiques",
+      "path": "packs/items-7mer-histo.db",
+      "module": "7Mer-Compendium",
+      "entity": "Item"
+    },
+    {
+      "name": "items-trait",
+      "label": "7eme Mer - Traits monstrueux",
+      "path": "packs/items-7mer-traits.db",
+      "module": "7Mer-Compendium",
+      "entity": "Item"
+    },
+    {
+      "name": "items-sorcery",
+      "label": "7eme Mer - Sorcellerie",
+      "path": "packs/items-7mer-sorcery.db",
+      "module": "7Mer-Compendium",
+      "entity": "Item"
+    },
+    {
+      "name": "scenes",
+      "label": "7eme Mer - Scenes",
+      "path": "packs/scenes.db",
+      "module": "7Mer-Compendium",
+      "entity": "Scene"
+    },
+    {
+      "name": "JournalEntrys",
+      "label": "7eme Mer - Journal",
+      "path": "packs/journalentry.db",
+      "module": "7Mer-Compendium",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "macros",
+      "label": "7eme Mer - Macro",
+      "path": "packs/macro.db",
+      "module": "7Mer-Compendium",
+      "entity": "Macro"
+    },
+    {
+      "name": "rolltable",
+      "label": "7eme Mer - Tables aléatoire",
+      "path": "packs/rolltable.db",
+      "module": "7Mer-Compendium",
+      "entity": "RollTable"
+    },
+    {
+      "name": "playlist",
+      "label": "7eme Mer - Playlist",
+      "path": "packs/playlist.db",
+      "module": "7Mer-Compendium",
+      "entity": "Playlist"
+    }
+  ]
+}
