@@ -98,5 +98,8 @@
       "module": "7Mer-Compendium",
       "entity": "Playlist"
     }
-  ]
+  ],
+  "url": "https://github.com/Armaklan/7Mer-Compendium",
+  "manifest": "https://raw.githubusercontent.com/Armaklan/7Mer-Compendium/master/system.json",
+  "download": "https://github.com/Armaklan/7Mer-Compendium/archive/1.0.0.zip"
 }
