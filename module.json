@@ -1,11 +1,14 @@
 {
-  "name": "7Mer-Compendium",
+  "id": "7Mer-Compendium",
   "title": "7Mer Compendium",
   "description": "Conpendium de partage 7Mer",
   "author": "ZUBER Lionel",
-  "version": "1.0.0",
-  "minimumCoreVersion": "0.5.0",
-  "compatibleCoreVersion": "3.2.1",
+  "version": "1.0.2",
+  "compatibility": {
+    "minimum": 10,
+    "verified": "10.291",
+    "maxium": 10
+  },
   "packs": [
     {
       "name": "actors",
@@ -101,5 +104,5 @@
   ],
   "url": "https://github.com/Armaklan/7Mer-Compendium",
   "manifest": "https://raw.githubusercontent.com/Armaklan/7Mer-Compendium/master/module.json",
-  "download": "https://github.com/Armaklan/7Mer-Compendium/archive/1.0.1.zip"
+  "download": "https://github.com/Armaklan/7Mer-Compendium/archive/1.0.2.zip"
 }
