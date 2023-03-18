@@ -2,16 +2,21 @@
   "id": "7Mer-Compendium",
   "title": "7Mer Compendium",
   "description": "Conpendium de partage 7Mer",
-  "author": "ZUBER Lionel",
-  "version": "1.0.2",
+  "authors": [
+    {
+      "name": "ZUBER Lionel",
+      "email": "lionel.zuber@armaklan.org"
+    }
+  ],
+  "version": "1.0.3",
   "compatibility": {
     "minimum": 10,
-    "verified": "10.291",
-    "maxium": 10
+    "verified": "10.291"
   },
   "packs": [
     {
       "name": "actors",
+      "system": "svnsea2e",
       "label": "7eme Mer - Personnages",
       "path": "packs/actors.db",
       "module": "7Mer-Compendium",
@@ -19,6 +24,7 @@
     },
     {
       "name": "monsters",
+      "system": "svnsea2e",
       "label": "7emer Mer - Monstres",
       "path": "packs/monsters.db",
       "module": "7Mer-Compendium",
@@ -26,6 +32,7 @@
     },
     {
       "name": "items",
+      "system": "svnsea2e",
       "label": "7eme Mer - Objets diverses",
       "path": "packs/items.db",
       "module": "7Mer-Compendium",
@@ -33,6 +40,7 @@
     },
     {
       "name": "items-avantage",
+      "system": "svnsea2e",
       "label": "7eme Mer - Avantages",
       "path": "packs/items-7mer-avantage.db",
       "module": "7Mer-Compendium",
@@ -40,6 +48,7 @@
     },
     {
       "name": "items-virtues",
+      "system": "svnsea2e",
       "label": "7eme Mer - Vices et Vertues",
       "path": "packs/items-7mer-virtues.db",
       "module": "7Mer-Compendium",
@@ -47,6 +56,7 @@
     },
     {
       "name": "items-histo",
+      "system": "svnsea2e",
       "label": "7eme Mer - Historiques",
       "path": "packs/items-7mer-histo.db",
       "module": "7Mer-Compendium",
@@ -54,6 +64,7 @@
     },
     {
       "name": "items-trait",
+      "system": "svnsea2e",
       "label": "7eme Mer - Traits monstrueux",
       "path": "packs/items-7mer-traits.db",
       "module": "7Mer-Compendium",
@@ -61,6 +72,7 @@
     },
     {
       "name": "items-sorcery",
+      "system": "svnsea2e",
       "label": "7eme Mer - Sorcellerie",
       "path": "packs/items-7mer-sorcery.db",
       "module": "7Mer-Compendium",
@@ -68,6 +80,7 @@
     },
     {
       "name": "scenes",
+      "system": "svnsea2e",
       "label": "7eme Mer - Scenes",
       "path": "packs/scenes.db",
       "module": "7Mer-Compendium",
@@ -75,6 +88,7 @@
     },
     {
       "name": "JournalEntrys",
+      "system": "svnsea2e",
       "label": "7eme Mer - Journal",
       "path": "packs/journalentry.db",
       "module": "7Mer-Compendium",
@@ -82,6 +96,7 @@
     },
     {
       "name": "macros",
+      "system": "svnsea2e",
       "label": "7eme Mer - Macro",
       "path": "packs/macro.db",
       "module": "7Mer-Compendium",
@@ -89,6 +104,7 @@
     },
     {
       "name": "rolltable",
+      "system": "svnsea2e",
       "label": "7eme Mer - Tables aléatoire",
       "path": "packs/rolltable.db",
       "module": "7Mer-Compendium",
@@ -96,6 +112,7 @@
     },
     {
       "name": "playlist",
+      "system": "svnsea2e",
       "label": "7eme Mer - Playlist",
       "path": "packs/playlist.db",
       "module": "7Mer-Compendium",
@@ -104,5 +121,5 @@
   ],
   "url": "https://github.com/Armaklan/7Mer-Compendium",
   "manifest": "https://raw.githubusercontent.com/Armaklan/7Mer-Compendium/master/module.json",
-  "download": "https://github.com/Armaklan/7Mer-Compendium/archive/1.0.2.zip"
+  "download": "https://github.com/Armaklan/7Mer-Compendium/archive/1.0.3.zip"
 }
