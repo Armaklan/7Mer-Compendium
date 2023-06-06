@@ -8,7 +8,7 @@
       "email": "lionel.zuber@armaklan.org"
     }
   ],
-  "version": "1.0.4",
+  "version": "1.0.5",
   "compatibility": {
     "minimum": 10,
     "verified": "10.291"
@@ -121,5 +121,5 @@
   ],
   "url": "https://github.com/Armaklan/7Mer-Compendium",
   "manifest": "https://raw.githubusercontent.com/Armaklan/7Mer-Compendium/master/module.json",
-  "download": "https://github.com/Armaklan/7Mer-Compendium/archive/1.0.3.zip"
+  "download": "https://github.com/Armaklan/7Mer-Compendium/archive/1.0.5.zip"
 }
